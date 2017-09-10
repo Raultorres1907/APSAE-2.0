@@ -1,0 +1,110 @@
+/* Top Navigation Styles
+----------------------------------------------- */
+
+#nav ul {
+	margin: 0;
+	padding-bottom: 0px !important; 
+	padding-bottom: 8px;
+	white-space: nowrap;
+	list-style-type: none;
+	z-index:0;
+}
+
+#nav ul li {
+	display: inline;
+	z-index:0;
+}
+
+#nav li a {
+	margin: 0;
+	padding: 0 5px 8px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	z-index:0;
+}
+
+#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav a:hover, #nav a.current, #nav a.current:hover {
+	color: #000000;
+}
+
+
+
+/* Sub-Navigation Styles
+----------------------------------------------- */
+
+#subnav ul {
+	padding: 0;
+	list-style-type: none;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom:
+</style>
+</head>
+<body>
+<div id="izquierdo2">
+  <h1 class="titulo">Bienvenido</h1>
+</div>
+<div><img src="../images/logo2 15px;
+	margin-left: 0;
+	z-index:0;
+}
+
+#subnav li a {
+	margin: 0;
+	width: 170px;
+	display: block;
+	border-bottom: 1px solid #EBF4FF;
+	padding-top: 7px;
+	padding-right: 0;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	z-index:0;
+</style>
+</head>
+<body>
+<div id="izquierdo2">
+  <h1 class="titulo">Bienvenido</h1>
+</div>
+<div><img src="../images/logo2
+}
+
+#subnav a {
+	color: #353535;
+	text-decoration: none;
+}
+
+#subnav a:hover 
+{
+	
+	
+	
+}
+
+</style>
+</head>
+<body>
+<div id="izquierdo2">
+  <h1 class="titulo">Bienvenido</h1>
+</div>
+<div><img src="../images/logo2
+#subnav li a.currentgrey, #subnav li a.currentgrey:hover {
+	border: 0;
+	color: #fff;
+	background: url(../images/subnav-bg.gif) no-repeat;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 10px;
+}
+#subnav li a.currentorng, #subnav li a.currentorng:hover {
+	border: 0;
+	color: #fff;
+	background: url(../images/subnav-bg-orng.gif) no-repeat;
+	font-weight: bold;
+	font-size: 13px;
+}

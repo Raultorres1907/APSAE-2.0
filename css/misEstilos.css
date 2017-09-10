@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#fieldset
+{
+	border-radius: 7px 7px 7px 7px;
+	border-top:2px solid #590000;
+	border-left:2px solid #590000;
+	border-right:2px solid #590000;
+	border-bottom:2px solid #590000;
+}
+#boxformulario
+{
+	background-color: #FFF;
+	box-shadow: 0px 4px 10px #121212;
+	border-radius: 0px 0px 7px 7px;
+	/* -moz-opacity: 0.95;
+	   filter: alpha(opacity=95);
+	   -khtml-opacity: .95;
+	   opacity: .95;*/
+	width: 650px;
+	border: 1px solid #C40636;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	text-align: right;
+}
+#boxformulario2
+{
+	background-color:#FFF;
+	box-shadow: 0px 4px 10px #121212;
+	border-radius: 0px 0px 7px 7px;
+	/* -moz-opacity: 0.95;
+	   filter: alpha(opacity=95);
+	   -khtml-opacity: .95;
+	   opacity: .95;*/
+		width:650px;
+	border: 1px solid #C40636;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+.Estilo105 {color: #B30B18;
+	font-weight: bold;
+}
+.Estilo109 {color: #B30B18}
+.Estilo120 {color: #666666; font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; }
+.Estilo123 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+}
+.Estilo124 {color: #003399; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; }
+.Estilo126 {color: #666666}
+.Estilo127 {color: #666666; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; }
+.Estilo128 {font-size: 10px}
+.Estilo130 {color: #666666; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; }
+.Estilo6 {color: #003399}
+.Estilo131 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#8f220b;
+	font-size: 12px;
+	font-weight:bold;
+	text-align: left;
+}
+.Estilo132 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#360;
+	font-size: 12px;
+	font-weight:bold;
+	text-align: left;
+}
+.sidebarmenu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font: 13px Verdana;
+	text-align:left;
+	width: 190px; /* Main Menu Item widths */
+	border-bottom: 1px solid #ccc;
+
+	 
+} 
+.sidebarmenu ul li{
+	position: relative;
+}
+/* Top level menu links style */
+.sidebarmenu ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color:#333;
+text-decoration: none;
+padding: 6px;
+border-bottom: 1px solid #fff;
+border-right: 1px solid #778;
+}
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active{
+background:#CACAAE; /*background of tabs (default state)*/
+}
+.sidebarmenu ul li a:visited{
+color: #333;
+}
+.sidebarmenu ul li a:hover{
+background-color: #DDDDCC;
+/*color:#981919;*/
+color:#C40636;
+}
+/*Sub level menu items */
+.sidebarmenu ul li ul{
+position: absolute;
+width: 190px; /*Sub Menu Items width */
+top: 0;
+visibility: hidden;
+z-index:1;
+}
+.sidebarmenu a.subfolderstyle{
+background: url(images/boor.png) no-repeat 97% 50%;
+} 
+/* Holly Hack for IE \*/
+* html .sidebarmenu ul li { float: left; height: 1%;
+z-index:1; }
+* html .sidebarmenu ul li a { height: 1%;
+z-index:1; }
+/* End */
+.Estilo1201 {color: #003399; font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; }
+.Estilo1231 {font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Estilo1231 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+}
+.Estilo96 {font-family: Arial, Helvetica, sans-serif; color: #006600; }
+a:link {
+	color: #333;
+}
+a:hover {
+	color: #900;
+}
+.Estilo1232 {font-family: Verdana, Arial, Helvetica, sans-serif}
+
+.boton
+{
+	font-weight:bold;
+	background:#CACAAE;
+	border-radius: 5px 5px 5px 5px;
+	border-top:1px solid #817E85;
+	border-left:1px solid #817E85;
+	border-right:1px solid #817E85;
+	border-bottom:1px solid #817E85;
+	height:25px;
+	padding-top:0px;
+	background-image:url(../images/optin-text-bg3.png);
+}
+.boton:hover{
+	font-weight:bold;
+	background:#CCC;
+	color: #000;
+	background-image:url(../images/optin-text-bg2.png);
+       }
+.campos {
+	background: #E9F0F3;
+	
+	border-color: #000;
+}
+
+.input {
+    border: 1px solid #006;
+    background: #ffc;
+}
+#home table tr td #formulario table tr td table tr td table tr td fieldset table {
+	text-align: left;
+}
+
+#apDiv1 {
+	position:relative;
+	width:580px;
+}
+#apDiv2 {
+	position:relative;
+	width:520px;
+	height:320px;
+	z-index:0;
+	overflow: auto;
+	left: 0px;
+	float:none;
+}
+
+#conttabs {
+	position:relative;
+	width:580px;
+	float:left;
+	left: 11;
+}
+
+/*********************************************************************************************************/
+
+ul.tabs {
+	margin: 10;
+	padding: 0 0 0 0;
+	float:right;
+	list-style: none;
+	height: 32px;
+	/*border-bottom: 1px solid #999;*/
+	border-left: 1px solid #999;
+	width: 560px;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	line-height: 31px;
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+	background: #DDDDCC;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size:12px;
+	padding: 0 20px;
+	border: 1px solid #fff;
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #CACAAE;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+	background:#CACAAE;
+	border-bottom: 1px solid #fff;
+}
+   
+
+CSS para el contenido del tab 
+
+ .tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding: 0 25 0 0;
+	font-size:12px;
+}
+.tecla
+{
+	color:#900;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:center;
+	font-weight:100;
+	border-color:#006;
+	border:solid 1px;
+	display:block;
+	width:auto;
+	height:17px;
+	padding:1px 5px 1px 5px;;
+	float:left;
+	margin: 3px 3px 3px 3px;
+	background-color:#E8E8E8;
+}
+.tecla a
+ {
+	 text-decoration:none;
+ }
+ .tecla a:hover
+ {
+	 color:#900;
+	 background-color:#FFF;
+ }
